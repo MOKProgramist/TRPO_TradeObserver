@@ -8,6 +8,6 @@ namespace TradeObserver
 {
     internal interface IObserver
     {
-        void Update();
+        void Update(double newPrice);
     }
 }
